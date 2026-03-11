@@ -1,0 +1,83 @@
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: palegreen;
+  
+}
+
+.to-do-list-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  border: 2px groove rgba(217, 217, 217, 0.931);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.add-btn {
+  margin-left: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: hsla(101, 31%, 51%, 0.912);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid hsl(101, 35%, 31%);
+
+  svg{
+    width: 15px;
+    height: 15px;
+    stroke: white;
+    stroke-width: 3px;
+  }
+}
+
+.add-btn:hover{
+  background-color: hsl(101, 30%, 43%);
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li{
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 1px 2px black;
+  border-radius: 10px;
+  text-align: start;
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(232, 232, 232, 0.903);
+}
+
+.remove-btn {
+  margin-left: 70px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: hsla(0, 90%, 44%, 0.898);
+  color: white;
+  padding: 5px;
+  border: 2px solid hsl(0, 81%, 28%);
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background-color: hsl(0, 88%, 37%);
+}
+
+.move-up-btn {
+  margin-left: 5px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}

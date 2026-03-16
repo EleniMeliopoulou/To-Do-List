@@ -4,7 +4,7 @@ This is a to-do list that allows users to create, organize and categorize their 
 
 ---
 
-Features:
+## Features:
 * **Add Tasks:** The user can add tasks by clicking on the button "Add" or by pressing Enter.
 * **Mark as Completed:** Double clicking on a task, toggles its completed state and puts a line-through it.
 * **Reorder Tasks:** Tasks can be moved up or down to adjust the order.

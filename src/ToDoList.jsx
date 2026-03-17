@@ -6,7 +6,7 @@ function ToDoList() {
 
     const typeColors = {
         "Important": "5px solid red",
-        "Best-To-do": "5px solid orange",
+        "Recommended": "5px solid orange",
         "Optional": "5px solid green",
     }
 
@@ -91,7 +91,7 @@ function ToDoList() {
                             <select value={task.type} onChange={(e) => handleTaskType(index, e.target.value)}>
                                 <option value="">Select an option</option>
                                 <option value="Important" style={{ backgroundColor: "hsla(0, 100%, 50%, 0.5)" }}>Important 🔴</option>
-                                <option value="Best-To-do" style={{ backgroundColor: "hsla(39, 100%, 50%, 0.5)" }}>Better To Do 🟠</option>
+                                <option value="Recommended" style={{ backgroundColor: "hsla(39, 100%, 50%, 0.5)" }}>Recommended 🟠</option>
                                 <option value="Optional" style={{ backgroundColor: "hsla(120, 100%, 25%, 0.5)" }}>Optional 🟢</option>
                             </select>
                         </li>

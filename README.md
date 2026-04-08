@@ -14,7 +14,7 @@ This is a to-do list that allows users to create, organize and categorize their 
 ---
 
 ## Technologies Used
-* **Front-End:*
+**Front-End:*
     * React with Vite 
     * CSS 
 
